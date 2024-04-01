@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.navigasi{
+    height: 100;
+    width: 100;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+div nav img{
+    width: 320px;
+    display: inline;
+}
