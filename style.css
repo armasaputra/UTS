@@ -19,7 +19,27 @@ nav {
     padding-right: 30px;
 }
 
-div nav img{
+nav img{
     width: 320px;
     display: inline;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 8px;
+}
+
+nav ul li a{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 26px;
+    text-transform: capitalize;
+    border-bottom: 1px solid #9f3a3a;
+}
+
+div nav ul li a:hover{
+    color: #9f3a3a;
+    transition: 0.4s;
+    border-width: 3px;
 }
