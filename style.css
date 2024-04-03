@@ -45,39 +45,40 @@ div nav ul li a:hover{
 }
 
 .logokbmhd_dikonten img{
-    width: 520px;
+    width: 525px;
     position: absolute;
     bottom: 0;
-    top: 220px;
-    right: 280px;
+    top: 230px;
+    right: 220px;
     border-radius: 200px
 }
 
 .Home{
     background-color: white;
+    width: 100%;
+    height: 100%;
 }
 
 .isi_dihome{
     font-style: italic;
     margin: 140px;
-    position: absolute;
-    left: 35px;
-    top: 70px;
-    text-shadow: 1px 1px 1px #9f3a3a;
+    margin-top: 120px;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 .isi_dihome h1{
     font-size: 40px;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
     text-transform: capitalize;
     margin: 20px;
+    padding-left: 15px;
 }
 
 .isi_dihome h3{
     letter-spacing: 1px;
-    line-height: 42px;
-    font-size: 33px;
+    font-size: 34px;
     text-align: left;
+    line-height: 50px;
     width: 900px;
     margin: 20px;
     margin-top: 0;
@@ -85,14 +86,30 @@ div nav ul li a:hover{
 }
 
 .btn_dihome{
-    background-color: #9f3a3a;
+    background: #9f3a3a;
     color: rgba(247, 247, 247, 0.99);
     border: 1px solid #9f3a3a;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 23px;
     padding: 18px 21px;
     border-radius: 15px;
-    box-shadow: 1px 1px 4px #da3531;
-    position: absolute;
+    box-shadow: 1px 1px 4px #9f3a3a;
+    position: relative;
     left: 20px;
+    top: 10px;
+}
+
+.btn_dihome:hover{
+    background: rgb(255, 255, 255);
+    color: #000000;
+    text-shadow: none;
+    box-shadow: 1px 1px 4px #000000;
+    transition: 0.5s;
+    padding: 18px 23px;
+}
+
+.Home_v2{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #9f3a3a;
 }
