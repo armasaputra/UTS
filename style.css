@@ -76,7 +76,7 @@ div nav ul li a:hover{
 
 .isi_dihome h3{
     letter-spacing: 1px;
-    font-size: 34px;
+    font-size: 30px;
     text-align: left;
     line-height: 50px;
     width: 900px;
@@ -113,3 +113,48 @@ div nav ul li a:hover{
     padding: 100px 0;
     background-color: #9f3a3a;
 }
+
+.judul{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+}
+
+.judul h1{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.judul h3{
+    font-size: 50px;
+    font-weight: normal;
+    padding-top: 5px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+    flex-wrap: wrap;
+}
+
+.divisi{
+    height: 300px;
+    width: 280px;
+    padding: 50px 30px;
+    background: white;
+    margin: 40px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 5px 5px 3px #000000;
+}
+
+.divisi img{
+    width: 100px;
+}
+
