@@ -149,7 +149,7 @@ div nav ul li a:hover{
 }
 
 .divisi{
-    height: 310px;
+    height: 330px;
     width: 250px;
     padding: 50px 30px;
     background: white;
@@ -193,4 +193,74 @@ div nav ul li a:hover{
     transition: 0.5s;
     padding-top: 40px;
     width: 252px;
+}
+
+.Home_v3{
+    width: 100%;
+    padding: 50px 0;
+    background-color: #ffffff;
+    padding-bottom: 100px
+}
+
+.judul_dihome3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    text-align: center;
+}
+
+.judul_dihome3 h1{
+    font-size: 50px;
+    font-weight: normal;
+    padding-top: 10px;
+    line-height: 35px;
+    margin-top: 70px;
+}
+
+.judul_dihome3 h3{
+    font-size: 70px;
+    font-weight: normal;
+    padding-top: 30px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    color: #9f3a3a;
+    margin-bottom: 70px;
+}
+
+.box_dihome3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+    flex-wrap: wrap;    
+}
+
+.isibox_dihome3{
+    height: 400px;
+    width: 800px;
+    background: rgb(255, 255, 255);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 3px 3px 5px #9f3a3a;
+    margin: 30px;
+}
+
+.isibox_dihome3 img{
+    width: 800px;
+}
+
+#foto2{
+    width: 79p0x;
+    height: 410px;
+}
+
+#foto3{
+    width: 900px;
+    height: 400px;
+}
+
+.isibox_dihome3:hover{
+    box-shadow: 10px 10px 20px #9f3a3a;
+    transition: 0.3s;
 }
