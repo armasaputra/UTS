@@ -409,3 +409,35 @@ div nav ul li a:hover{
     margin: auto;
     box-shadow: 0 0 14px;
 }
+.blog {
+    margin-left: 18%;
+    padding-top: 10px;
+    width: 820px;
+    height: auto;
+    margin-bottom: 5%;
+}
+.blog_box {
+    margin-top: 60px;
+    overflow: hidden;
+    max-width: 800px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px #0000002d;
+    height: 650px;
+} 
+.blog_box img {
+    height: 420px;
+    width: 800px;
+}
+.box_judul {
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 15px;
+    color: #9f3a3a;
+}
+.blog_isi {
+    font-size: 22px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
