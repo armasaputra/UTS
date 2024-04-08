@@ -371,3 +371,41 @@ div nav ul li a:hover{
     display: flex;
     gap: 200px;
 }
+.background1 {
+    background-color: #9f3a3a;
+}
+.kotak_proker  {
+    background-image: url("latar\ coklat.png");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 0 0 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 250px;
+}
+.judul_isi {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.kotak_proker div p {
+    font-size: 22px;
+    text-align: justify;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 50px;
+}
+.proker_foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.proker_foto img {
+    width: 800px;
+    margin: auto;
+    box-shadow: 0 0 14px;
+}
