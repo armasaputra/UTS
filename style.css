@@ -264,3 +264,13 @@ div nav ul li a:hover{
     box-shadow: 10px 10px 20px #9f3a3a;
     transition: 0.3s;
 }
+
+.footer{
+    bottom: 0;
+    width: 100%;
+    background-color: #9f3a3a;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
