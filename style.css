@@ -274,3 +274,55 @@ div nav ul li a:hover{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+.isi_about {
+    font-style: italic;
+    margin: 140px;
+    margin-top: 120px;
+    text-shadow: 1px 1px 1px #000000;
+}
+.isi_about .isi_judul {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    font-size: 60px;
+    text-shadow: none;
+    text-align: center;
+}
+.isi_dihome2 {
+    display: flex;
+    margin-bottom: 0;
+    justify-content: center;
+    gap: 1px;
+}
+.isi_kotak {
+    height: 250px;
+    width: 330px;
+    padding: 50px 30px;
+    background: white;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #00000017;
+}
+.isi_kotak:hover {
+    box-shadow: 0 0 10px#000000;
+}
+.isi_kotak_judul {
+    margin-top: 10%;
+    font-size: 40px;
+}
+.isi_kotak_teks {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.isi_foto {
+    width: 1000px;
+    height: 1500px;
+    padding: 50px;
+    margin: auto;
+    margin-bottom: 200px;
+    background-image: url("arsip.jpg");
+    border-radius: 20px;
+}
