@@ -268,7 +268,7 @@ div nav ul li a:hover{
 .footer{
     bottom: 0;
     width: 100%;
-    background-color: #9f3a3a;
+    background-color: #616161;
     color: white;
     text-align: center;
     padding-top: 20px;
@@ -279,7 +279,7 @@ div nav ul li a:hover{
     font-style: italic;
     margin: 140px;
     margin-top: 120px;
-    text-shadow: 1px 1px 1px #000000;
+    text-shadow: 1px 1px 1px #9f3a3a;
 }
 .isi_about .isi_judul {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -323,7 +323,7 @@ div nav ul li a:hover{
     padding: 50px;
     margin: auto;
     margin-bottom: 200px;
-    background-image: url("arsip.jpg");
+    background-image: url("arsip3.jpg");
     border-radius: 20px;
 }
 .isi_judul2 {
@@ -339,25 +339,25 @@ div nav ul li a:hover{
     justify-content: center;
     align-items: center; 
     width: 100%;
-    background-color: #9f3a3a;
     box-shadow: 0 0 40px;
     padding-top: 100px;
     padding-bottom: 100px;
 }
 .kotak_pengurus {
-    background-color: #ffffff;
+    background-color: #9f3a3a;
     margin-top: 2%;
     margin-bottom: 2%;
     width: 300px;
     height: 500px;
     text-align: center;
     font-size: 30px;
+    font-weight: bold;
     padding-top: 20px;
     border-radius: 10px;
     overflow: hidden;
 }
 .foto_pengurus {
-    background-color: #9f3a3a;
+    background-color: #ffffff;
     width: 300px;
     height: 448px;
     margin-top: 20px;
@@ -369,13 +369,14 @@ div nav ul li a:hover{
 }
 .kotak_berjajar {
     display: flex;
-    gap: 200px;
+    gap: 50px;
 }
 .background1 {
-    background-color: #9f3a3a;
+    background-color: white;
+    
 }
 .kotak_proker  {
-    background-image: url("latar\ coklat.png");
+    background-color: #9f3a3a;
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
